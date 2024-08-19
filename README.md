@@ -14,15 +14,15 @@ git config -l
 
 Initialize username and Email
 ```
-git config --global user.name "Krismxhe"
+git config --global user.name "name"
 
-git config user.email "hmxian2022@hotmail.com"
+git config user.email "name@example.com"
 ```
 
 Add remote git repo
 ```
 cd existing_repo
-git remote add origin https://github.com/Krismxhe/DiffDR.git
+git remote add origin https://github.com/example.git
 git branch -M main
 git pull
 git push -uf origin main
