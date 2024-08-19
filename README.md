@@ -23,8 +23,8 @@ Add remote git repo
 ```
 cd existing_repo
 git remote add origin https://github.com/example.git
+git pull https://github.com/example.git
 git branch -M main
-git pull
 git push -uf origin main
 ```
 
