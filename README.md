@@ -42,3 +42,16 @@ Or
 ```
 git push -f origin main
 ```
+
+## Remove existing git info
+Remove git directory
+```
+rm -rf .git
+```
+
+Clean the cache
+```
+git rm -rf --cached ./target_file
+```
+
+Keep doing the original protocol.
