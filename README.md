@@ -42,7 +42,15 @@ Or
 ```
 git push -f origin main
 ```
-
+## Merge
+The wrong order of push and pull operation will cause asynchronous conflict. We need to merge first.
+```
+git merge
+```
+```
+git push
+git pull
+```
 ## Remove existing git info
 Remove git directory
 ```
